@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Santo Pecado — Cafe Bar in McAllen, TX</title>
+<meta name="description" content="Santo Pecado is a fancy cafe bar in McAllen, TX — tacos, brunch, coffee, and cocktails in a warm, tropical setting. Rated 4.7 stars from 699 reviews. Dine-in, takeout, delivery, and reservations available.">
+<link rel="canonical" href="https://santopecadomcallen.com/">
+<meta property="og:title" content="Santo Pecado — Cafe Bar in McAllen, TX">
+<meta property="og:description" content="A fancy cafe bar in McAllen, TX — tacos, brunch, coffee, and cocktails in a warm, tropical setting.">
+<meta property="og:type" content="restaurant.restaurant">
+<meta property="og:url" content="https://santopecadomcallen.com/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Santo Pecado — Cafe Bar in McAllen, TX">
+<meta name="twitter:description" content="Tacos, brunch, coffee, and cocktails in a warm, tropical setting in McAllen, TX.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Santo Pecado",
+  "url": "https://santopecadomcallen.com/",
+  "telephone": "+1-956-803-0013",
+  "priceRange": "$10-$20",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1200 Auburn Ave Ste 315",
+    "addressLocality": "McAllen",
+    "addressRegion": "TX",
+    "postalCode": "78504",
+    "addressCountry": "US"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.7",
+    "reviewCount": "699"
+  },
+  "servesCuisine": ["Cafe", "Cocktail Bar", "Latin American"],
+  "acceptsReservations": "True",
+  "sameAs": [
+    "https://www.instagram.com/santopecadomcallen/?hl=en",
+    "https://www.facebook.com/pages/Santo%20Pecado/140777252452852/#",
+    "https://www.tiktok.com/@santopecadomcallen"
+  ]
+}
+</script>
+<style>
+  :root{
+    --ink:#F0E5C9;
+    --paper:#2B1B10;
+    --paper-soft:#3D2817;
+    --emerald:#034231;
+    --emerald-deep:#022A1F;
+    --turquoise:#2AA8A0;
+    --gold:#C9A227;
+    --brown:#B08A5D;
+    --line: rgba(240,229,201,0.16);
+    --shadow: 0 20px 44px rgba(10,61,48,0.2);
+  }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  html{ scroll-behavior:smooth; }
+  body{
+    background:var(--paper); color:var(--ink);
+    font-family:'Inter', sans-serif; line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3{ font-family:'Cormorant Garamond', serif; font-weight:600; letter-spacing:0.01em; color:var(--gold); }
+  .mono{ font-family:'IBM Plex Mono', monospace; letter-spacing:0.05em; }
+  a{ color:inherit; }
+  img{ max-width:100%; display:block; }
+  .wrap{ max-width:1140px; margin:0 auto; padding:0 28px; }
+  section{ padding:100px 0; }
+  button{ font-family:inherit; cursor:pointer; border:none; background:none; }
+
+  [data-es]{ display:none; }
+  html[lang="es"] [data-en]{ display:none; }
+  html[lang="es"] [data-es]{ display:inline; }
+
+  .eyebrow{
+    font-family:'IBM Plex Mono', monospace; font-size:11.5px; letter-spacing:0.18em;
+    text-transform:uppercase; color:var(--gold);
+    display:inline-flex; align-items:center; gap:10px; margin-bottom:20px;
+  }
+  .eyebrow::before{ content:""; width:18px; height:1px; background:var(--gold); }
+
+  /* ---------- NAV ---------- */
+  header{
+    position:sticky; top:0; z-index:50;
+    background:rgba(43,27,16,0.92); backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line);
+  }
+  nav{ display:flex; align-items:center; justify-content:space-between; padding:16px 28px; max-width:1140px; margin:0 auto; }
+  .logo{ display:flex; align-items:center; gap:10px; }
+  .logo .logo-mark{ width:40px; height:40px; flex-shrink:0; }
+  .logo .word{
+    font-family:'Cormorant Garamond', serif; font-style:italic; font-weight:600; font-size:24px;
+    color:var(--gold); letter-spacing:0.01em;
+  }
+  .nav-links{ display:flex; gap:28px; }
+  .nav-links a{ font-size:13px; font-weight:600; text-decoration:none; color:var(--ink); opacity:0.72; text-transform:uppercase; letter-spacing:0.04em; }
+  .nav-links a:hover{ opacity:1; }
+  .nav-right{ display:flex; align-items:center; gap:14px; }
+  .social-row{ display:flex; gap:8px; }
+  .icon-link{
+    width:34px; height:34px; border-radius:50%; border:1px solid var(--line);
+    display:flex; align-items:center; justify-content:center; transition:all .2s ease;
+  }
+  .icon-link:hover{ background:var(--emerald-deep); border-color:var(--emerald-deep); }
+  .icon-link:hover svg path{ fill:var(--ink); }
+  .btn{
+    display:inline-flex; align-items:center; gap:8px; background:var(--emerald-deep); color:var(--ink);
+    padding:11px 22px; border-radius:999px; font-size:13px; font-weight:600; text-decoration:none;
+    transition:transform .15s ease, box-shadow .15s ease;
+  }
+  .btn:hover{ transform:translateY(-1px); box-shadow:var(--shadow); }
+  .btn-gold{ background:var(--gold); color:var(--emerald-deep); }
+  .btn-ghost{ background:transparent; color:var(--gold); border:1.5px solid var(--gold); }
+  @media (max-width:900px){ .nav-links{ display:none; } }
+
+  /* ---------- HERO w/ 3D ---------- */
+  .hero{
+    position:relative; overflow:hidden; padding:88px 0 100px;
+    background:linear-gradient(160deg, var(--emerald-deep) 0%, #072920 65%, #051A15 100%);
+    color:var(--ink);
+  }
+  .bean-sketches{ position:absolute; inset:0; width:100%; height:100%; z-index:0; pointer-events:none; overflow:hidden; }
+  .bean-sketch{
+    position:absolute;
+    animation: bean-float var(--dur, 9s) ease-in-out infinite, bean-drift var(--drift-dur, 13s) ease-in-out infinite;
+  }
+  @keyframes bean-float{
+    0%, 100%{ transform:translateY(0) rotate(var(--rot, 0deg)); }
+    50%{ transform:translateY(-22px) rotate(calc(var(--rot, 0deg) + 8deg)); }
+  }
+  @keyframes bean-drift{
+    0%, 100%{ margin-left:0; }
+    50%{ margin-left:16px; }
+  }
+  .palm{ position:absolute; bottom:-20px; width:120px; height:auto; z-index:1; pointer-events:none; opacity:0.9; }
+  .palm-left{ left:-18px; transform-origin:bottom center; animation:palm-sway 6s ease-in-out infinite; }
+  .palm-right{ right:-18px; transform-origin:bottom center; animation:palm-sway 6.5s ease-in-out infinite .8s; transform:scaleX(-1); }
+  @keyframes palm-sway{
+    0%, 100%{ transform:rotate(-2deg); }
+    50%{ transform:rotate(2deg); }
+  }
+  .palm-right{ animation-name:palm-sway-right; }
+  @keyframes palm-sway-right{
+    0%, 100%{ transform:scaleX(-1) rotate(-2deg); }
+    50%{ transform:scaleX(-1) rotate(2deg); }
+  }
+  @media (max-width:760px){ .palm{ width:70px; opacity:0.6; } }
+  .hero .wrap{ position:relative; z-index:1; }
+  .hero-grid{ display:grid; grid-template-columns:1.05fr 0.95fr; gap:56px; align-items:center; }
+  @media (max-width:900px){ .hero-grid{ grid-template-columns:1fr; } }
+  .hero .eyebrow{ color:var(--gold); }
+  .hero h1{ font-size:clamp(38px,5vw,58px); line-height:1.08; margin-bottom:20px; color:var(--ink); font-style:italic; }
+  .hero h1 span{ color:var(--turquoise); }
+  .hero p.lede{ font-size:16.5px; max-width:440px; color:rgba(240,229,201,0.8); margin-bottom:30px; font-family:'Inter', sans-serif; font-style:normal; }
+  .hero-ctas{ display:flex; gap:14px; flex-wrap:wrap; margin-bottom:28px; }
+  .hero .btn-ghost{ color:var(--ink); border-color:rgba(240,229,201,0.5); }
+  .rating-badge{
+    display:inline-flex; align-items:center; gap:12px;
+    background:rgba(240,229,201,0.07); border:1px solid rgba(240,229,201,0.18);
+    border-radius:12px; padding:14px 18px;
+  }
+  .rating-badge .stars{ color:var(--gold); font-size:18px; letter-spacing:2px; }
+  .rating-badge .score{ font-family:'Cormorant Garamond', serif; font-size:24px; font-weight:600; }
+  .rating-badge .count{ font-size:12.5px; color:rgba(240,229,201,0.65); }
+
+  .hero-right{ display:flex; flex-direction:column; gap:20px; }
+  .coffee-visual{
+    background:rgba(240,229,201,0.05); border:1px solid rgba(240,229,201,0.14); border-radius:16px;
+    padding:18px 20px 14px; display:flex; flex-direction:column; align-items:center;
+  }
+  .coffee-illustration{ width:100%; max-width:180px; height:auto; }
+  .steam{ animation:steam-rise 3s ease-in-out infinite; transform-origin:center bottom; }
+  .steam-2{ animation-delay:.6s; }
+  .steam-3{ animation-delay:1.2s; }
+  @keyframes steam-rise{
+    0%{ opacity:0; transform:translateY(6px) scaleY(0.8); }
+    35%{ opacity:0.75; }
+    100%{ opacity:0; transform:translateY(-10px) scaleY(1.1); }
+  }
+  .coffee-caption{
+    font-family:'Cormorant Garamond', serif; font-style:italic; font-size:15px;
+    color:var(--gold); margin-top:6px;
+  }
+  .hero-info{
+    background:rgba(240,229,201,0.06); border:1px solid rgba(240,229,201,0.16); border-radius:16px;
+    padding:28px 26px; backdrop-filter:blur(4px);
+  }
+  .hero-info-row{ display:flex; gap:12px; align-items:flex-start; font-size:14px; color:rgba(240,229,201,0.88); margin-bottom:16px; }
+  .hero-info-row:last-child{ margin-bottom:0; }
+  .hero-info-row .label{ font-family:'IBM Plex Mono', monospace; font-size:11px; color:var(--gold); min-width:70px; text-transform:uppercase; letter-spacing:0.05em; padding-top:2px; }
+  .hero-info-row a{ color:rgba(240,229,201,0.88); text-decoration:none; }
+  .hero-info-row a:hover{ color:var(--gold); }
+  .open-tag{
+    display:inline-flex; align-items:center; gap:6px; font-family:'IBM Plex Mono', monospace;
+    font-size:11.5px; color:#84DFA0; text-transform:uppercase; letter-spacing:0.05em;
+  }
+  .open-tag::before{ content:""; width:7px; height:7px; border-radius:50%; background:#84DFA0; }
+  .service-pills{ display:flex; gap:8px; flex-wrap:wrap; margin-top:18px; }
+  .service-pills span{
+    font-family:'IBM Plex Mono', monospace; font-size:10.5px; letter-spacing:0.05em; text-transform:uppercase;
+    border:1px solid rgba(240,229,201,0.3); border-radius:999px; padding:6px 12px; color:rgba(240,229,201,0.85);
+  }
+
+  /* ---------- MENU ---------- */
+  .section-head{ max-width:640px; margin-bottom:52px; }
+  .section-head.center{ margin-left:auto; margin-right:auto; text-align:center; }
+  .section-head h2{ font-size:clamp(30px,3.8vw,42px); margin-bottom:14px; font-style:italic; }
+  .section-head p{ font-size:16px; color:rgba(240,229,201,0.68); }
+  .menu-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:28px; perspective:1200px; }
+  @media (max-width:900px){ .menu-grid{ grid-template-columns:1fr; } }
+  .menu-card{
+    background:var(--paper-soft); border:1px solid var(--line); border-radius:14px; padding:30px 28px;
+    transition:transform .12s ease-out, box-shadow .12s ease-out; transform-style:preserve-3d; will-change:transform;
+  }
+  .menu-card .cat-icon{
+    width:40px; height:40px; border-radius:50%; background:var(--emerald-deep); color:var(--gold);
+    display:flex; align-items:center; justify-content:center; font-family:'Cormorant Garamond', serif; font-size:18px; margin-bottom:18px;
+  }
+  .menu-card h3{ font-size:21px; margin-bottom:14px; font-style:italic; }
+  .menu-card ul{ list-style:none; display:flex; flex-direction:column; gap:9px; }
+  .menu-card li{ font-size:14.5px; color:rgba(240,229,201,0.75); padding-left:16px; position:relative; }
+  .menu-card li::before{ content:"—"; position:absolute; left:0; color:var(--turquoise); }
+  .price-note{ margin-top:36px; text-align:center; font-size:13.5px; color:rgba(240,229,201,0.55); }
+
+  /* ---------- ABOUT ---------- */
+  .about{ background:var(--paper-soft); border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+  .about-grid{ display:grid; grid-template-columns:1fr 1fr; gap:56px; align-items:center; }
+  @media (max-width:900px){ .about-grid{ grid-template-columns:1fr; } }
+  .about-grid p{ font-size:15.5px; color:rgba(240,229,201,0.75); margin-bottom:16px; }
+  .about-stats{ display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--line); border:1px solid var(--line); border-radius:14px; overflow:hidden; }
+  .about-stat{ background:var(--paper-soft); padding:26px; text-align:center; }
+  .about-stat .num{ font-family:'Cormorant Garamond', serif; font-size:32px; font-weight:600; color:var(--gold); }
+  .about-stat .num span{ color:var(--turquoise); }
+  .about-stat .label{ font-family:'IBM Plex Mono', monospace; font-size:10.5px; text-transform:uppercase; letter-spacing:0.05em; color:rgba(240,229,201,0.55); margin-top:6px; }
+
+  /* ---------- GALLERY ---------- */
+  .gallery-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:16px; perspective:1200px; }
+  @media (max-width:900px){ .gallery-grid{ grid-template-columns:repeat(2,1fr); } }
+  .gallery-tile{
+    aspect-ratio:1/1; border-radius:10px; position:relative; overflow:hidden;
+    display:flex; align-items:flex-end; padding:14px;
+    transition:transform .12s ease-out, box-shadow .12s ease-out; transform-style:preserve-3d; will-change:transform;
+  }
+  .gallery-tile img{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
+  .gallery-tile .overlay{ position:absolute; inset:0; background:linear-gradient(0deg, rgba(10,61,48,0.75), transparent 60%); }
+  .gallery-tile span{ position:relative; z-index:1; color:var(--ink); font-family:'Cormorant Garamond', serif; font-style:italic; font-size:16px; }
+  .g-1{ background:linear-gradient(150deg,#022A1F,#2AA8A0); }
+  .g-2{ background:linear-gradient(150deg,#4A3620,#B08A5D); }
+  .g-3{ background:linear-gradient(150deg,#0B6E4F,#C9A227); }
+  .g-4{ background:linear-gradient(150deg,#1B1A16,#022A1F); }
+  .g-5{ background:linear-gradient(150deg,#8A5A2A,#C9A227); }
+  .g-6{ background:linear-gradient(150deg,#022A1F,#B08A5D); }
+  .g-7{ background:linear-gradient(150deg,#2AA8A0,#0B6E4F); }
+  .g-8{ background:linear-gradient(150deg,#1B1A16,#4A3620); }
+  .gallery-note{
+    margin-top:32px; font-size:13px; color:rgba(240,229,201,0.55);
+    background:var(--paper-soft); border:1px dashed var(--line); border-radius:10px; padding:16px 18px;
+  }
+  .gallery-note code{ background:var(--paper); padding:2px 6px; border-radius:4px; font-family:'IBM Plex Mono', monospace; }
+
+  /* ---------- RESERVATIONS (premium feature) ---------- */
+  .reservations{ background:var(--emerald-deep); color:var(--ink); }
+  .reservations .section-head h2, .reservations .section-head p{ color:var(--ink); }
+  .reservations .section-head p{ opacity:0.75; }
+  .res-card{
+    max-width:640px; margin:0 auto; background:rgba(240,229,201,0.06); border:1px solid rgba(240,229,201,0.16);
+    border-radius:16px; padding:38px 34px;
+  }
+  .res-grid{ display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+  @media (max-width:560px){ .res-grid{ grid-template-columns:1fr; } }
+  .res-card input, .res-card select, .res-card textarea{
+    font-family:'Inter', sans-serif; font-size:14.5px; padding:13px 15px; border-radius:8px;
+    border:1px solid rgba(240,229,201,0.25); background:rgba(240,229,201,0.08); color:var(--ink);
+    width:100%;
+  }
+  .res-card input::placeholder, .res-card textarea::placeholder{ color:rgba(240,229,201,0.5); }
+  .res-card input:focus, .res-card select:focus, .res-card textarea:focus{ outline:2px solid var(--gold); outline-offset:1px; }
+  .res-card form{ display:flex; flex-direction:column; gap:14px; margin-top:8px; }
+  .res-card .btn{ align-self:flex-start; margin-top:6px; }
+  .res-note{ font-size:12.5px; color:rgba(240,229,201,0.6); margin-top:16px; }
+
+  /* ---------- TESTIMONIALS ---------- */
+  .t-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:24px; perspective:1200px; }
+  @media (max-width:900px){ .t-grid{ grid-template-columns:1fr; } }
+  .t-card{
+    background:var(--paper-soft); border:1px solid var(--line); border-radius:14px; padding:28px;
+    transition:transform .12s ease-out, box-shadow .12s ease-out; transform-style:preserve-3d; will-change:transform;
+  }
+  .t-card .stars{ color:var(--gold); font-size:14px; margin-bottom:14px; letter-spacing:2px; }
+  .t-card p{ font-size:14.5px; color:rgba(240,229,201,0.78); margin-bottom:16px; }
+  .t-card span{ font-family:'IBM Plex Mono', monospace; font-size:12px; color:rgba(240,229,201,0.55); }
+  .aggregate-line{
+    display:flex; align-items:center; gap:14px; margin-top:40px; padding-top:32px;
+    border-top:1px solid var(--line); flex-wrap:wrap;
+  }
+  .aggregate-line .stars{ color:var(--gold); font-size:20px; letter-spacing:2px; }
+  .aggregate-line .txt{ font-size:14px; color:rgba(240,229,201,0.65); }
+
+  /* ---------- FAQ ---------- */
+  .faq-list{ max-width:760px; display:flex; flex-direction:column; gap:12px; }
+  .faq-item{ background:var(--paper-soft); border:1px solid var(--line); border-radius:10px; overflow:hidden; }
+  .faq-q{
+    width:100%; display:flex; align-items:center; justify-content:space-between; gap:16px;
+    padding:20px 22px; text-align:left; font-family:'Inter', sans-serif; font-weight:600; font-size:15px; color:var(--gold);
+  }
+  .faq-q .plus{ font-family:'IBM Plex Mono', monospace; font-size:18px; color:var(--turquoise); transition:transform .2s ease; flex-shrink:0; }
+  .faq-item.open .faq-q .plus{ transform:rotate(45deg); }
+  .faq-a{ max-height:0; overflow:hidden; transition:max-height .3s ease; }
+  .faq-a-inner{ padding:0 22px 20px; font-size:14.5px; color:rgba(240,229,201,0.72); }
+  .faq-item.open .faq-a{ max-height:220px; }
+
+  /* ---------- CONTACT ---------- */
+  .contact{ background:var(--paper-soft); border-top:1px solid var(--line); }
+  .contact-grid{ display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:start; }
+  @media (max-width:900px){ .contact-grid{ grid-template-columns:1fr; } }
+  .contact-grid p{ color:rgba(240,229,201,0.72); font-size:15.5px; margin-bottom:24px; max-width:420px; }
+  .contact-list{ display:flex; flex-direction:column; gap:14px; margin-bottom:24px; }
+  .contact-list div{ display:flex; gap:12px; align-items:baseline; font-size:14.5px; }
+  .contact-list a{ text-decoration:none; }
+  .contact-list a:hover{ color:var(--turquoise); }
+  .contact-list span.mono{ color:var(--turquoise); font-size:11.5px; min-width:60px; text-transform:uppercase; }
+  .map-frame{ border-radius:12px; overflow:hidden; border:1px solid var(--line); box-shadow:var(--shadow); }
+  .map-frame iframe{ width:100%; height:220px; border:0; display:block; }
+  .contact-socials{ display:flex; gap:10px; margin-top:20px; }
+
+  form.msg-form{ display:flex; flex-direction:column; gap:14px; background:var(--paper); border:1px solid var(--line); border-radius:12px; padding:26px; }
+  form.msg-form input, form.msg-form textarea{
+    font-family:'Inter', sans-serif; font-size:14.5px; padding:13px 15px; border-radius:8px;
+    border:1px solid var(--line); background:var(--paper-soft); color:var(--ink);
+  }
+  form.msg-form input:focus, form.msg-form textarea:focus{ outline:2px solid var(--turquoise); outline-offset:1px; }
+  form.msg-form textarea{ resize:vertical; min-height:96px; }
+  form.msg-form .btn{ align-self:flex-start; }
+  form.msg-form h3{ font-size:19px; margin-bottom:2px; font-style:italic; }
+
+  footer{ border-top:1px solid var(--line); padding:32px 0; background:var(--emerald-deep); color:rgba(240,229,201,0.7); }
+  .footer-logo{ text-align:center; margin-bottom:28px; }
+  .footer-logo img{ width:220px; height:auto; margin:0 auto; }
+  .footer-row{ display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px; }
+  .footer-row p{ font-size:12.5px; }
+  .footer-socials{ display:flex; gap:10px; }
+  .footer-socials .icon-link{ border-color:rgba(240,229,201,0.2); }
+  .footer-socials .icon-link:hover{ background:var(--gold); border-color:var(--gold); }
+  .footer-socials .icon-link:hover svg path{ fill:var(--emerald-deep); }
+  /* ---------- SCROLL-TRIGGERED 3D REVEAL ---------- */
+  .reveal{
+    opacity:0;
+    transform:perspective(900px) rotateX(10deg) translateY(36px);
+  }
+  .reveal.reveal-in{
+    opacity:1;
+    transform:perspective(900px) rotateX(0deg) translateY(0);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="logo">
+      <img class="logo-mark" src="images/santo-pecado-mark.png" alt="Santo Pecado emblem">
+      <span class="word">Santo Pecado</span>
+    </div>
+    <div class="nav-links">
+      <a href="#menu">Menu</a>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reservations">Reservations</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="nav-right">
+      <div class="social-row">
+        <a class="icon-link" href="https://www.instagram.com/santopecadomcallen/?hl=en" target="_blank" rel="noopener" aria-label="Santo Pecado on Instagram">
+          <svg width="15" height="15" viewBox="0 0 24 24"><path fill="#C9A227" d="M12 2c2.7 0 3.06.01 4.12.06 1.06.05 1.79.22 2.43.47.66.26 1.22.6 1.77 1.15.55.55.9 1.11 1.15 1.77.25.64.42 1.37.47 2.43.05 1.06.06 1.42.06 4.12s-.01 3.06-.06 4.12c-.05 1.06-.22 1.79-.47 2.43a4.9 4.9 0 0 1-1.15 1.77 4.9 4.9 0 0 1-1.77 1.15c-.64.25-1.37.42-2.43.47-1.06.05-1.42.06-4.12.06s-3.06-.01-4.12-.06c-1.06-.05-1.79-.22-2.43-.47a4.9 4.9 0 0 1-1.77-1.15 4.9 4.9 0 0 1-1.15-1.77c-.25-.64-.42-1.37-.47-2.43C2.01 15.06 2 14.7 2 12s.01-3.06.06-4.12c.05-1.06.22-1.79.47-2.43.26-.66.6-1.22 1.15-1.77A4.9 4.9 0 0 1 5.45 2.53c.64-.25 1.37-.42 2.43-.47C8.94 2.01 9.3 2 12 2Zm0 1.8c-2.65 0-2.98.01-4.02.06-.87.04-1.34.18-1.66.3-.42.16-.71.36-1.02.67-.31.31-.51.6-.67 1.02-.12.32-.26.79-.3 1.66C4.29 8.02 4.28 8.35 4.28 11s.01 2.98.06 4.02c.04.87.18 1.34.3 1.66.16.42.36.71.67 1.02.31.31.6.51 1.02.67.32.12.79.26 1.66.3 1.04.05 1.37.06 4.02.06s2.98-.01 4.02-.06c.87-.04 1.34-.18 1.66-.3.42-.16.71-.36 1.02-.67.31-.31.51-.6.67-1.02.12-.32.26-.79.3-1.66.05-1.04.06-1.37.06-4.02s-.01-2.98-.06-4.02c-.04-.87-.18-1.34-.3-1.66a2.75 2.75 0 0 0-.67-1.02 2.75 2.75 0 0 0-1.02-.67c-.32-.12-.79-.26-1.66-.3C14.98 3.81 14.65 3.8 12 3.8Zm0 3.05a5.15 5.15 0 1 1 0 10.3 5.15 5.15 0 0 1 0-10.3Zm0 1.8a3.35 3.35 0 1 0 0 6.7 3.35 3.35 0 0 0 0-6.7Zm5.35-1.98a1.2 1.2 0 1 1-2.4 0 1.2 1.2 0 0 1 2.4 0Z"/></svg>
+        </a>
+        <a class="icon-link" href="https://www.facebook.com/pages/Santo%20Pecado/140777252452852/#" target="_blank" rel="noopener" aria-label="Santo Pecado on Facebook">
+          <svg width="14" height="14" viewBox="0 0 24 24"><path fill="#C9A227" d="M22 12.06C22 6.51 17.52 2 12 2S2 6.51 2 12.06C2 17.06 5.66 21.2 10.44 22v-7.03H7.9v-2.91h2.54V9.85c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.44 2.91h-2.34V22C18.34 21.2 22 17.06 22 12.06Z"/></svg>
+        </a>
+        <a class="icon-link" href="https://www.tiktok.com/@santopecadomcallen" target="_blank" rel="noopener" aria-label="Santo Pecado on TikTok">
+          <svg width="14" height="14" viewBox="0 0 24 24"><path fill="#C9A227" d="M16.6 2h-3.2v13.9c0 1.55-1.25 2.82-2.8 2.82a2.81 2.81 0 0 1-2.8-2.82c0-1.55 1.25-2.81 2.8-2.81.31 0 .6.05.88.14v-3.28a6.1 6.1 0 0 0-.88-.06 6.03 6.03 0 0 0-6.02 6.01A6.03 6.03 0 0 0 10.6 22a6.03 6.03 0 0 0 6.02-6.02V8.36a8.16 8.16 0 0 0 4.78 1.53V6.68a4.85 4.85 0 0 1-4.8-4.68Z"/></svg>
+        </a>
+      </div>
+      <a class="btn btn-gold" href="#reservations"><span data-en>Reserve a Table</span><span data-es>Reservar Mesa</span></a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="bean-sketches" id="bean-sketches"></div>
+  <svg class="palm palm-left" viewBox="0 0 140 320" xmlns="http://www.w3.org/2000/svg">
+    <path d="M70 320 L74 140" stroke="#8A5A2A" stroke-width="7" stroke-linecap="round" fill="none"/>
+    <g class="palm-fronds">
+      <path d="M72 140 C 30 120, -10 130, -20 90 C 20 100, 50 115, 72 140 Z" fill="#022A1F"/>
+      <path d="M72 140 C 40 100, 20 60, 40 20 C 60 60, 68 100, 72 140 Z" fill="#034231"/>
+      <path d="M72 140 C 100 100, 140 90, 150 50 C 115 65, 85 95, 72 140 Z" fill="#022A1F"/>
+      <path d="M72 140 C 110 130, 150 145, 160 105 C 120 105, 90 120, 72 140 Z" fill="#034231"/>
+      <path d="M72 140 C 55 105, 45 70, 60 30 C 75 65, 78 105, 72 140 Z" fill="#0B6E4F"/>
+    </g>
+  </svg>
+  <svg class="palm palm-right" viewBox="0 0 140 320" xmlns="http://www.w3.org/2000/svg">
+    <path d="M70 320 L66 140" stroke="#8A5A2A" stroke-width="7" stroke-linecap="round" fill="none"/>
+    <g class="palm-fronds">
+      <path d="M68 140 C 110 120, 150 130, 160 90 C 120 100, 90 115, 68 140 Z" fill="#022A1F"/>
+      <path d="M68 140 C 100 100, 120 60, 100 20 C 80 60, 72 100, 68 140 Z" fill="#034231"/>
+      <path d="M68 140 C 40 100, 0 90, -10 50 C 25 65, 55 95, 68 140 Z" fill="#022A1F"/>
+      <path d="M68 140 C 30 130, -10 145, -20 105 C 20 105, 50 120, 68 140 Z" fill="#034231"/>
+      <path d="M68 140 C 85 105, 95 70, 80 30 C 65 65, 62 105, 68 140 Z" fill="#0B6E4F"/>
+    </g>
+  </svg>
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow">Cafe Bar · McAllen, TX</div>
+      <h1>Where <span>coffee</span>, cocktails &amp; good taste meet.</h1>
+      <p class="lede">Tacos, brunch, hand-crafted coffee, and cocktails in a warm, tropical space — the spot in McAllen locals keep coming back to, again and again.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-gold" href="#reservations">Reserve a Table</a>
+        <a class="btn btn-ghost" href="#menu">View Menu</a>
+      </div>
+      <div class="rating-badge">
+        <span class="stars">★★★★★</span>
+        <div>
+          <div class="score">4.7 <span class="mono" style="font-size:13px; opacity:0.7;">/ 5</span></div>
+          <div class="count">from 699 Google reviews</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="coffee-visual">
+        <svg viewBox="0 0 200 170" class="coffee-illustration" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="100" cy="152" rx="58" ry="8" fill="#022A1F" opacity="0.4"/>
+          <path d="M55 60 L62 130 C 63 140, 137 140, 138 130 L145 60 Z" fill="#B08A5D"/>
+          <path d="M55 60 L62 130 C 63 140, 137 140, 138 130 L145 60 Z" fill="url(#cupShade)" opacity="0.5"/>
+          <ellipse cx="100" cy="60" rx="45" ry="9" fill="#3A2412"/>
+          <ellipse cx="100" cy="58" rx="40" ry="7" fill="#6F4A22"/>
+          <path d="M143 72 C 168 72, 168 108, 143 106" stroke="#B08A5D" stroke-width="7" fill="none" stroke-linecap="round"/>
+          <g class="steam-group">
+            <path class="steam steam-1" d="M85 48 C 80 38, 92 32, 87 22" stroke="#F0E5C9" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.7"/>
+            <path class="steam steam-2" d="M100 48 C 95 36, 107 30, 102 18" stroke="#F0E5C9" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6"/>
+            <path class="steam steam-3" d="M115 48 C 110 38, 122 32, 117 22" stroke="#F0E5C9" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.7"/>
+          </g>
+          <defs>
+            <linearGradient id="cupShade" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#022A1F" stop-opacity="0.3"/>
+              <stop offset="100%" stop-color="#022A1F" stop-opacity="0"/>
+            </linearGradient>
+          </defs>
+        </svg>
+        <span class="coffee-caption">Signature Cortado</span>
+      </div>
+
+      <div class="hero-info">
+      <div class="hero-info-row">
+        <span class="label">Status</span>
+        <span class="open-tag">Open now · Closes 10:00 PM</span>
+      </div>
+      <div class="hero-info-row">
+        <span class="label">Address</span>
+        <a href="https://maps.google.com/?q=1200+Auburn+Ave+Ste+315,+McAllen,+TX+78504" target="_blank" rel="noopener">1200 Auburn Ave Ste 315, McAllen, TX 78504</a>
+      </div>
+      <div class="hero-info-row">
+        <span class="label">Phone</span>
+        <a href="tel:+19568030013">(956) 803-0013</a>
+      </div>
+      <div class="hero-info-row">
+        <span class="label">Price</span>
+        <span>$10–$20 per person</span>
+      </div>
+      <div class="service-pills">
+        <span>Dine-In</span>
+        <span>Takeout</span>
+        <span>Delivery</span>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<section id="menu">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">The Menu</div>
+      <h2>Favorites Guests Keep Ordering</h2>
+      <p>A taste of what's on the menu — from tacos to brunch to hand-crafted coffee and cocktails.</p>
+    </div>
+    <div class="menu-grid">
+      <div class="menu-card">
+        <div class="cat-icon">T</div>
+        <h3>Tacos &amp; Mains</h3>
+        <ul>
+          <li>Tacos El Pecado</li>
+          <li>Blackened Shrimp Tacos</li>
+          <li>Carnitas Tacos</li>
+          <li>Cochinita Pibil</li>
+          <li>Pistachio-Crusted Salmon Risotto</li>
+        </ul>
+      </div>
+      <div class="menu-card">
+        <div class="cat-icon">B</div>
+        <h3>Brunch &amp; Breakfast</h3>
+        <ul>
+          <li>Chilaquiles</li>
+          <li>Avocado Toast</li>
+          <li>Waffle</li>
+          <li>Concha</li>
+          <li>Chicken Sandwich</li>
+        </ul>
+      </div>
+      <div class="menu-card">
+        <div class="cat-icon">C</div>
+        <h3>Coffee &amp; Cocktails</h3>
+        <ul>
+          <li>Cortado</li>
+          <li>Latte</li>
+          <li>Mimosas</li>
+          <li>Happy Hour Cocktails</li>
+          <li>Fettuccine</li>
+        </ul>
+      </div>
+    </div>
+    <p class="price-note">Average $10–$20 per person, as reported by Santo Pecado guests.</p>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="wrap about-grid">
+    <div>
+      <div class="eyebrow">About Us</div>
+      <h2>A Warm Spot, Done Right</h2>
+      <p>Santo Pecado has become a McAllen favorite for a reason: clean, sharp spaces, a welcoming atmosphere, and a menu that hits the mark whether you're in for a quick coffee or a full dinner. Guests consistently point to the attentive, friendly staff and the kind of reasonable prices that don't feel like a compromise on quality.</p>
+      <p>Whether it's Saturday brunch, a weekday lunch, dinner with drinks, or just a quiet corner to get some work done over coffee, Santo Pecado sets the tone for a relaxed, tropical evening or a bright morning — every visit.</p>
+      <a class="btn btn-ghost" href="#reservations" style="color:var(--gold); border-color:var(--gold);">Reserve a Table</a>
+    </div>
+    <div class="about-stats">
+      <div class="about-stat">
+        <div class="num">4.7<span>★</span></div>
+        <div class="label">Google Rating</div>
+      </div>
+      <div class="about-stat">
+        <div class="num">699</div>
+        <div class="label">Customer Reviews</div>
+      </div>
+      <div class="about-stat">
+        <div class="num">$10–20</div>
+        <div class="label">Per Person</div>
+      </div>
+      <div class="about-stat">
+        <div class="num">Dine-In</div>
+        <div class="label">Takeout &amp; Delivery</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Gallery</div>
+      <h2>A Taste of the Table</h2>
+      <p>A few of the dishes and drinks guests love most — swap in real photography any time.</p>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-tile g-1"><div class="overlay"></div><span>Cortado</span></div>
+      <div class="gallery-tile g-2"><div class="overlay"></div><span>Chicken Sandwich</span></div>
+      <div class="gallery-tile g-3"><div class="overlay"></div><span>Smoked Salmon</span></div>
+      <div class="gallery-tile g-4"><div class="overlay"></div><span>Cochinita Pibil</span></div>
+      <div class="gallery-tile g-5"><div class="overlay"></div><span>Waffle</span></div>
+      <div class="gallery-tile g-6"><div class="overlay"></div><span>Fettuccine</span></div>
+      <div class="gallery-tile g-7"><div class="overlay"></div><span>Latte</span></div>
+      <div class="gallery-tile g-8"><div class="overlay"></div><span>Tacos El Pecado</span></div>
+    </div>
+    <div class="gallery-note">
+      Each tile above is a colored placeholder. To add real photos, replace a <code>.gallery-tile</code> div's content with <code>&lt;img src="images/dish-name.jpg" alt="Dish name"&gt;</code> above the existing overlay and caption — the photo will automatically fill and crop to the tile.
+    </div>
+  </div>
+</section>
+
+<section class="reservations" id="reservations">
+  <div class="wrap">
+    <div class="section-head center">
+      <div class="eyebrow" style="justify-content:center;">Book Ahead</div>
+      <h2>Reserve Your Table</h2>
+      <p>Save your spot for brunch, dinner, or drinks — we'll confirm shortly after you submit.</p>
+    </div>
+    <div class="res-card">
+      <form onsubmit="event.preventDefault(); alert('Thank you! Your reservation request has been received — we\'ll confirm shortly.');">
+        <div class="res-grid">
+          <input type="text" placeholder="Full Name" required>
+          <input type="tel" placeholder="Phone Number" required>
+        </div>
+        <div class="res-grid">
+          <input type="date" required>
+          <input type="time" required>
+        </div>
+        <select required>
+          <option value="" disabled selected>Party Size</option>
+          <option>1–2 Guests</option>
+          <option>3–4 Guests</option>
+          <option>5–6 Guests</option>
+          <option>7+ Guests</option>
+        </select>
+        <textarea placeholder="Special requests (optional)"></textarea>
+        <button class="btn btn-gold" type="submit">Request Reservation</button>
+      </form>
+      <p class="res-note">Reservations are requests until confirmed by phone or email. For same-day seating, walk-ins are always welcome.</p>
+    </div>
+  </div>
+</section>
+
+<section id="reviews">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Customer Reviews</div>
+      <h2>What Guests Are Saying</h2>
+      <p>Real reviews, straight from Google.</p>
+    </div>
+    <div class="t-grid">
+      <div class="t-card">
+        <div class="stars">★★★★★</div>
+        <p>"Dropped in for lunch and was surprised how clean and sharp this place was. We ordered Tacos El Pecado, Blackened Shrimp Tacos, and Pistachio Crusted Salmon Risotto. Our waitress was excellent, helpful, and attentive."</p>
+        <span>— Reuben Reyes, Local Guide</span>
+      </div>
+      <div class="t-card">
+        <div class="stars">★★★★★</div>
+        <p>"Have come to Santo Pecado for Saturday brunch, weekday lunch, dinner, and to get some work done. Fast and friendly service every time, delicious food, and unique caffeinated drinks. I highly recommend the avocado toast."</p>
+        <span>— Claudia Perez, Local Guide</span>
+      </div>
+      <div class="t-card">
+        <div class="stars">★★★★★</div>
+        <p>"First time here and we were just looking for a place to enjoy some coffee. So glad we found this spot! The coffee was delicious, the concha was amazing, and the atmosphere was really cool."</p>
+        <span>— Dara K. Cepeda</span>
+      </div>
+    </div>
+    <div class="aggregate-line">
+      <span class="stars">★★★★★</span>
+      <span class="txt">4.7 out of 5 stars, based on 699 Google reviews</span>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Good to Know</div>
+      <h2>Frequently Asked</h2>
+      <p>Tap a question to expand it.</p>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-q"><span>Do you take reservations?</span><span class="plus">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">Yes — request a table using the reservation form above, and we'll confirm shortly. Walk-ins are also welcome.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>Do you offer takeout and delivery?</span><span class="plus">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">Yes — dine-in, takeout, and delivery are all available.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>Do you serve brunch?</span><span class="plus">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">Yes — Saturday brunch is a favorite, alongside lunch and dinner service throughout the week.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>What's the price range?</span><span class="plus">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">Guests report an average of $10–$20 per person.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap contact-grid">
+    <div>
+      <div class="eyebrow">Visit Us</div>
+      <h2>Get In Touch</h2>
+      <p>Stop by, call ahead, or send a quick message — we'd love to have you in.</p>
+      <div class="contact-list">
+        <div><span class="mono">Phone</span> <a href="tel:+19568030013">(956) 803-0013</a></div>
+        <div><span class="mono">Address</span> <a href="https://maps.google.com/?q=1200+Auburn+Ave+Ste+315,+McAllen,+TX+78504" target="_blank" rel="noopener">1200 Auburn Ave Ste 315, McAllen, TX 78504</a></div>
+        <div><span class="mono">Today</span> Closes at 10:00 PM</div>
+      </div>
+      <div class="map-frame">
+        <iframe src="https://maps.google.com/maps?q=1200+Auburn+Ave+Ste+315,+McAllen,+TX+78504&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="contact-socials">
+        <a class="icon-link" href="https://www.instagram.com/santopecadomcallen/?hl=en" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg width="15" height="15" viewBox="0 0 24 24"><path fill="#C9A227" d="M12 2c2.7 0 3.06.01 4.12.06 1.06.05 1.79.22 2.43.47.66.26 1.22.6 1.77 1.15.55.55.9 1.11 1.15 1.77.25.64.42 1.37.47 2.43.05 1.06.06 1.42.06 4.12s-.01 3.06-.06 4.12c-.05 1.06-.22 1.79-.47 2.43a4.9 4.9 0 0 1-1.15 1.77 4.9 4.9 0 0 1-1.77 1.15c-.64.25-1.37.42-2.43.47-1.06.05-1.42.06-4.12.06s-3.06-.01-4.12-.06c-1.06-.05-1.79-.22-2.43-.47a4.9 4.9 0 0 1-1.77-1.15 4.9 4.9 0 0 1-1.15-1.77c-.25-.64-.42-1.37-.47-2.43C2.01 15.06 2 14.7 2 12s.01-3.06.06-4.12c.05-1.06.22-1.79.47-2.43.26-.66.6-1.22 1.15-1.77A4.9 4.9 0 0 1 5.45 2.53c.64-.25 1.37-.42 2.43-.47C8.94 2.01 9.3 2 12 2Z"/></svg>
+        </a>
+        <a class="icon-link" href="https://www.facebook.com/pages/Santo%20Pecado/140777252452852/#" target="_blank" rel="noopener" aria-label="Facebook">
+          <svg width="14" height="14" viewBox="0 0 24 24"><path fill="#C9A227" d="M22 12.06C22 6.51 17.52 2 12 2S2 6.51 2 12.06C2 17.06 5.66 21.2 10.44 22v-7.03H7.9v-2.91h2.54V9.85c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.44 2.91h-2.34V22C18.34 21.2 22 17.06 22 12.06Z"/></svg>
+        </a>
+        <a class="icon-link" href="https://www.tiktok.com/@santopecadomcallen" target="_blank" rel="noopener" aria-label="TikTok">
+          <svg width="14" height="14" viewBox="0 0 24 24"><path fill="#C9A227" d="M16.6 2h-3.2v13.9c0 1.55-1.25 2.82-2.8 2.82a2.81 2.81 0 0 1-2.8-2.82c0-1.55 1.25-2.81 2.8-2.81.31 0 .6.05.88.14v-3.28a6.1 6.1 0 0 0-.88-.06 6.03 6.03 0 0 0-6.02 6.01A6.03 6.03 0 0 0 10.6 22a6.03 6.03 0 0 0 6.02-6.02V8.36a8.16 8.16 0 0 0 4.78 1.53V6.68a4.85 4.85 0 0 1-4.8-4.68Z"/></svg>
+        </a>
+      </div>
+    </div>
+    <form class="msg-form" onsubmit="event.preventDefault(); alert('Thanks! We\'ll be in touch soon.');">
+      <h3>Send a Message</h3>
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Questions, private events, or feedback"></textarea>
+      <button class="btn btn-gold" type="submit">Send</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-logo">
+      <img src="images/santo-pecado-logo-full.png" alt="Santo Pecado — Cafe, Cocktails, Bites">
+    </div>
+    <div class="footer-row">
+      <p>© 2026 Santo Pecado. Locally owned in McAllen, TX.</p>
+      <div class="footer-socials">
+        <a class="icon-link" href="https://www.instagram.com/santopecadomcallen/?hl=en" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg width="14" height="14" viewBox="0 0 24 24"><path fill="#F0E5C9" d="M12 2c2.7 0 3.06.01 4.12.06 1.06.05 1.79.22 2.43.47.66.26 1.22.6 1.77 1.15.55.55.9 1.11 1.15 1.77.25.64.42 1.37.47 2.43.05 1.06.06 1.42.06 4.12s-.01 3.06-.06 4.12c-.05 1.06-.22 1.79-.47 2.43a4.9 4.9 0 0 1-1.15 1.77 4.9 4.9 0 0 1-1.77 1.15c-.64.25-1.37.42-2.43.47-1.06.05-1.42.06-4.12.06s-3.06-.01-4.12-.06c-1.06-.05-1.79-.22-2.43-.47a4.9 4.9 0 0 1-1.77-1.15 4.9 4.9 0 0 1-1.15-1.77c-.25-.64-.42-1.37-.47-2.43C2.01 15.06 2 14.7 2 12s.01-3.06.06-4.12c.05-1.06.22-1.79.47-2.43.26-.66.6-1.22 1.15-1.77A4.9 4.9 0 0 1 5.45 2.53c.64-.25 1.37-.42 2.43-.47C8.94 2.01 9.3 2 12 2Z"/></svg>
+        </a>
+        <a class="icon-link" href="https://www.facebook.com/pages/Santo%20Pecado/140777252452852/#" target="_blank" rel="noopener" aria-label="Facebook">
+          <svg width="13" height="13" viewBox="0 0 24 24"><path fill="#F0E5C9" d="M22 12.06C22 6.51 17.52 2 12 2S2 6.51 2 12.06C2 17.06 5.66 21.2 10.44 22v-7.03H7.9v-2.91h2.54V9.85c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.44 2.91h-2.34V22C18.34 21.2 22 17.06 22 12.06Z"/></svg>
+        </a>
+        <a class="icon-link" href="https://www.tiktok.com/@santopecadomcallen" target="_blank" rel="noopener" aria-label="TikTok">
+          <svg width="13" height="13" viewBox="0 0 24 24"><path fill="#F0E5C9" d="M16.6 2h-3.2v13.9c0 1.55-1.25 2.82-2.8 2.82a2.81 2.81 0 0 1-2.8-2.82c0-1.55 1.25-2.81 2.8-2.81.31 0 .6.05.88.14v-3.28a6.1 6.1 0 0 0-.88-.06 6.03 6.03 0 0 0-6.02 6.01A6.03 6.03 0 0 0 10.6 22a6.03 6.03 0 0 0 6.02-6.02V8.36a8.16 8.16 0 0 0 4.78 1.53V6.68a4.85 4.85 0 0 1-4.8-4.68Z"/></svg>
+        </a>
+      </div>
+      <p class="mono">(956) 803-0013</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Hand-drawn sketch-style coffee beans floating in the hero background.
+  // Pure SVG + CSS — no WebGL, no external image, nothing that can fail
+  // to load. Each bean is a simple two-stroke "sketchy" outline (a slightly
+  // offset duplicate line, like a quick pen drawing) with a curved crease,
+  // animated with a gentle float/drift/rotate loop.
+  (function initSketchBeans(){
+    const wrap = document.getElementById('bean-sketches');
+    if (!wrap) return;
+
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const beanCount = 9;
+    const brownShades = ['#6B4326', '#4E2E17', '#8A5A2A'];
+
+    function makeBeanSVG(shade){
+      const w = 46, h = 32;
+      return `
+        <svg viewBox="0 0 ${w} ${h}" width="100%" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6 22 C 4 12, 14 4, 24 5 C 34 6, 42 12, 40 20 C 38 28, 26 30, 16 29 C 10 28.5, 7 27, 6 22 Z"
+                stroke="${shade}" stroke-width="1.6" stroke-linecap="round" opacity="0.95"/>
+          <path d="M7 21 C 5.5 12.5, 15 5, 24.5 6 C 33.5 7, 41 13, 39 20 C 37 27, 25.5 29, 16.5 28 C 11 27.5, 7.8 26, 7 21 Z"
+                stroke="${shade}" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+          <path d="M12 24 C 17 17, 21 12, 27 8" stroke="${shade}" stroke-width="1.5" stroke-linecap="round" opacity="0.9"/>
+          <path d="M10.5 23 L13 24.5 M14 20 L16.5 21.8 M17 16.5 L19.5 18.3 M20 13 L22.3 15" stroke="${shade}" stroke-width="0.9" stroke-linecap="round" opacity="0.6"/>
+          <path d="M23.5 9.5 L25.5 11.5 M27 8 L29 10 M30.5 7.2 L32.3 9.3" stroke="${shade}" stroke-width="0.9" stroke-linecap="round" opacity="0.6"/>
+          <path d="M9 18 C 8.6 16, 8.6 14, 9.4 12 M11 10 C 12.3 8.4, 14 7, 16 6.2 M30 8 C 33 8.6, 36 10.4, 37.6 13 M39 16 C 39.6 18, 39.6 20.4, 38.8 22.6"
+                stroke="${shade}" stroke-width="0.7" stroke-linecap="round" opacity="0.45"/>
+          <path d="M12 26 L14 27.2 M17 27.6 L19 28.4 M23 28 L25 28.6 M29 27 L31 27.6 M34 24 L36 25" stroke="${shade}" stroke-width="0.7" stroke-linecap="round" opacity="0.45"/>
+          <path d="M7.5 17 L9.5 16.4 M6.8 14 L8.8 13.6 M8 24.5 L10 25.4" stroke="${shade}" stroke-width="0.7" stroke-linecap="round" opacity="0.4"/>
+          <path d="M36.5 10 L38.2 11.6 M38 15 L39.6 16.8 M37.5 22 L39 23.6" stroke="${shade}" stroke-width="0.7" stroke-linecap="round" opacity="0.4"/>
+          <path d="M18.5 25 C 19 22, 19.5 19, 20.5 16 M23.5 24.5 C 24.3 21.5, 24.8 18, 25.6 14.5" stroke="${shade}" stroke-width="0.6" stroke-linecap="round" opacity="0.35"/>
+          <circle cx="13" cy="15" r="0.5" fill="${shade}" opacity="0.5"/>
+          <circle cx="17" cy="11" r="0.5" fill="${shade}" opacity="0.45"/>
+          <circle cx="28.5" cy="14" r="0.5" fill="${shade}" opacity="0.5"/>
+          <circle cx="32" cy="18" r="0.5" fill="${shade}" opacity="0.4"/>
+          <circle cx="21" cy="22" r="0.5" fill="${shade}" opacity="0.45"/>
+          <circle cx="11" cy="21" r="0.4" fill="${shade}" opacity="0.4"/>
+        </svg>
+      `;
+    }
+
+    for (let i = 0; i < beanCount; i++) {
+      const el = document.createElement('div');
+      el.className = 'bean-sketch';
+      const size = 34 + Math.random() * 30;
+      const shade = brownShades[i % brownShades.length];
+      el.style.width = size + 'px';
+      el.style.height = (size * 0.7) + 'px';
+      el.style.left = (Math.random() * 92) + '%';
+      el.style.top = (Math.random() * 80) + '%';
+      el.style.setProperty('--rot', (Math.random() * 50 - 25) + 'deg');
+      el.style.setProperty('--dur', (7 + Math.random() * 5) + 's');
+      el.style.setProperty('--drift-dur', (10 + Math.random() * 6) + 's');
+      el.style.animationDelay = (Math.random() * -8) + 's, ' + (Math.random() * -10) + 's';
+      el.style.opacity = (0.55 + Math.random() * 0.35).toFixed(2);
+      el.innerHTML = makeBeanSVG(shade);
+      if (prefersReducedMotion) el.style.animation = 'none';
+      wrap.appendChild(el);
+    }
+  })();
+</script>
+
+<script>
+  // 3D tilt-on-hover for menu, review, and gallery cards — real transform, not just shadow
+  (function initCardTilt(){
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (prefersReducedMotion) return;
+
+    const tiltCards = document.querySelectorAll('.menu-card, .t-card, .gallery-tile');
+    tiltCards.forEach((card) => {
+      card.addEventListener('mousemove', (e) => {
+        const rect = card.getBoundingClientRect();
+        const x = (e.clientX - rect.left) / rect.width - 0.5;
+        const y = (e.clientY - rect.top) / rect.height - 0.5;
+        const rotateX = (-y * 8).toFixed(2);
+        const rotateY = (x * 10).toFixed(2);
+        card.style.transform = `perspective(1200px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateZ(6px)`;
+      });
+      card.addEventListener('mouseleave', () => {
+        card.style.transform = '';
+      });
+    });
+  })();
+
+  // Scroll-triggered 3D reveal for section headers and content cards — the "live action" feel
+  (function initScrollReveal(){
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (prefersReducedMotion) return;
+
+    const revealTransition = 'opacity .7s cubic-bezier(.2,.7,.2,1), transform .7s cubic-bezier(.2,.7,.2,1)';
+
+    const groupSelectors = ['.menu-grid', '.gallery-grid', '.t-grid', '.faq-list', '.about-stats'];
+    groupSelectors.forEach((sel) => {
+      const group = document.querySelector(sel);
+      if (!group) return;
+      Array.from(group.children).forEach((child, i) => {
+        child.classList.add('reveal');
+        child.style.transition = revealTransition;
+        child.style.transitionDelay = `${Math.min(i * 90, 360)}ms`;
+      });
+    });
+
+    document.querySelectorAll('.section-head').forEach((el) => {
+      el.classList.add('reveal');
+      el.style.transition = revealTransition;
+    });
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const el = entry.target;
+          el.classList.add('reveal-in');
+          el.addEventListener('transitionend', function clearInline(){
+            el.style.transition = '';
+            el.style.transitionDelay = '';
+            el.removeEventListener('transitionend', clearInline);
+          }, { once: true });
+          observer.unobserve(el);
+        }
+      });
+    }, { threshold: 0.15, rootMargin: '0px 0px -60px 0px' });
+
+    document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
+  })();
+</script>
+
+<script>
+  // Interactive FAQ accordion
+  document.querySelectorAll('.faq-q').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const item = btn.closest('.faq-item');
+      const isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item.open').forEach((el) => el.classList.remove('open'));
+      if (!isOpen) item.classList.add('open');
+    });
+  });
+</script>
+
+</body>
+</html>
